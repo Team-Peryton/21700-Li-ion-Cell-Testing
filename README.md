@@ -4,6 +4,8 @@ Collecting data using a powerlab8 V2 charger. Capable of 60A discharge to a batt
 
 Cells tested -> Molicell INR-21700-P42A.
 
+Can get the Revolectrix CCS PowerLab 8 software here: https://www.rcgroups.com/forums/showthread.php?3963135-Revolectrix-CCS-Install-Workaround#post47730189
+
 
 ## Aims
 - check cell capacity variance
@@ -21,6 +23,6 @@ Cells tested -> Molicell INR-21700-P42A.
 
 test data in native PowerLab 8 V2 software format (.CP8) as well as tab separated format (.txt)
 
-- N_cell_cycle.*      :   (charge to 100% SoC if needed) discharge at 1C then charge at 1C
+- N_cell_cycle.*      :   (charge to 100% SoC if needed) discharge at 1C, 1 min rest, then charge at 1C
 - N_cell_storage.*    :   Discharge from 100% SoC to 3.7V storage charge at 10A, ~2.4C
 - N_cell_stress.*     :   Discharge from 100% SoC to 4.0V (TBC) at 60A, ~14C
