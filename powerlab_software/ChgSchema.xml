@@ -1,0 +1,402 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="DataSetChg" targetNamespace="http://tempuri.org/DataSetChg.xsd" xmlns:mstns="http://tempuri.org/DataSetChg.xsd" xmlns="http://tempuri.org/DataSetChg.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="DataSetChg" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Info">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StartDateTime" type="xs:dateTime" />
+              <xs:element name="SlaveNum" type="xs:short" default="0" />
+              <xs:element name="PresetLCD" type="xs:string" default="" />
+              <xs:element name="Notes" type="xs:string" default="" />
+              <xs:element name="SinglePack" type="xs:boolean" default="false" />
+              <xs:element name="UseNodes" type="xs:boolean" default="false" />
+              <xs:element name="UseFuel" type="xs:boolean" default="false" />
+              <xs:element name="GenerateFuel" type="xs:boolean" default="false" />
+              <xs:element name="Chemistry" type="xs:float" default="0" />
+              <xs:element name="ChgVolts" type="xs:float" default="0" />
+              <xs:element name="DschVolts" type="xs:float" default="0" />
+              <xs:element name="DschAhr" type="xs:float" default="0" />
+              <xs:element name="ChgC" type="xs:float" default="0" />
+              <xs:element name="DschC" type="xs:float" default="0" />
+              <xs:element name="Cells" type="xs:short" default="0" />
+              <xs:element name="PSLimit" type="xs:float" default="0" />
+              <xs:element name="BananasConnected" type="xs:boolean" default="false" />
+              <xs:element name="OptimizedFastCharge" type="xs:boolean" default="false" />
+              <xs:element name="CRC32" type="xs:long" default="0" />
+              <xs:element name="Charger" type="xs:string" default="" />
+              <xs:element name="Firmware" type="xs:float" default="0" />
+              <xs:element name="DataInterval" type="xs:short" default="10" />
+              <xs:element name="NamePlateAhr" type="xs:float" default="0" />
+              <xs:element name="ChargeAhrCyc1" type="xs:float" default="0" />
+              <xs:element name="DischargeAhrCyc1" type="xs:float" default="0" />
+              <xs:element name="AvgChgVoltsCyc1" type="xs:float" default="0" />
+              <xs:element name="AvgChgAmpsCyc1" type="xs:float" default="0" />
+              <xs:element name="ManualAmpsCyc1" type="xs:boolean" default="false" />
+              <xs:element name="AvgDschAmpsCyc1" type="xs:float" default="0" />
+              <xs:element name="AvgDschVoltsCyc1" type="xs:float" default="0" />
+              <xs:element name="AvgIRCyc1" type="xs:float" default="0" />
+              <xs:element name="ChgCCyc1" type="xs:float" default="0" />
+              <xs:element name="DschCCyc1" type="xs:float" default="0" />
+              <xs:element name="ChargeAhrCyc2" type="xs:float" default="0" />
+              <xs:element name="DischargeAhrCyc2" type="xs:float" default="0" />
+              <xs:element name="AvgChgVoltsCyc2" type="xs:float" default="0" />
+              <xs:element name="AvgChgAmpsCyc2" type="xs:float" default="0" />
+              <xs:element name="ManualAmpsCyc2" type="xs:boolean" default="false" />
+              <xs:element name="AvgDschAmpsCyc2" type="xs:float" default="0" />
+              <xs:element name="AvgDschVoltsCyc2" type="xs:float" default="0" />
+              <xs:element name="AvgIRCyc2" type="xs:float" default="0" />
+              <xs:element name="ChgCCyc2" type="xs:float" default="0" />
+              <xs:element name="ChgMinCyc2" type="xs:float" default="0" />
+              <xs:element name="DschCCyc2" type="xs:float" default="0" />
+              <xs:element name="ChargeAhrCycL" type="xs:float" default="0" />
+              <xs:element name="DischargeAhrCycL" type="xs:float" default="0" />
+              <xs:element name="AvgChgVoltsCycL" type="xs:float" default="0" />
+              <xs:element name="AvgChgAmpsCycL" type="xs:float" default="0" />
+              <xs:element name="ManualAmpsCycL" type="xs:boolean" default="false" />
+              <xs:element name="AvgDschAmpsCycL" type="xs:float" default="0" />
+              <xs:element name="AvgDschVoltsCycL" type="xs:float" default="0" />
+              <xs:element name="AvgIRCycL" type="xs:float" default="0" />
+              <xs:element name="ChgCCycL" type="xs:float" default="0" />
+              <xs:element name="DschCCycL" type="xs:float" default="0" />
+              <xs:element name="CycLast" msdata:Caption="Cycles" type="xs:short" default="0" />
+              <xs:element name="DischargeAhrCycM" type="xs:float" default="0" />
+              <xs:element name="CycMax" type="xs:short" default="0" />
+              <xs:element name="CyclesDecreased" type="xs:short" default="0" />
+              <xs:element name="PercentRemaining" type="xs:float" default="0" />
+              <xs:element name="AhrPerCycle" type="xs:float" default="0" />
+              <xs:element name="CycleLife80" type="xs:int" default="0" />
+              <xs:element name="RowsCalculated" type="xs:int" default="0" />
+              <xs:element name="CalculatedError" type="xs:string" default="" />
+              <xs:element name="PersetVer" type="xs:float" default="0" />
+              <xs:element name="LCD1" type="xs:string" default="" />
+              <xs:element name="LCD2" type="xs:string" default="" />
+              <xs:element name="RatedCapacity" type="xs:string" default="" />
+              <xs:element name="CustomFuel" type="xs:boolean" default="false" />
+              <xs:element name="PresetData" type="xs:base64Binary" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Data">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateTime" type="xs:dateTime" />
+              <xs:element name="SlaveNum" type="xs:short" default="0" />
+              <xs:element name="Cycle" type="xs:int" default="0" />
+              <xs:element name="Mode" type="xs:short" default="0" />
+              <xs:element name="SupplyVolts" type="xs:float" default="0" />
+              <xs:element name="LSupplyVolts" type="xs:float" default="0" />
+              <xs:element name="SupplyAmps" type="xs:float" default="0" />
+              <xs:element name="PWM" type="xs:int" default="0" />
+              <xs:element name="SecTimer" type="xs:int" default="0" />
+              <xs:element name="AvgCellVolts" type="xs:float" default="0" />
+              <xs:element name="MaxCellVolts" type="xs:float" default="0" />
+              <xs:element name="AvgIR" type="xs:float" default="0" />
+              <xs:element name="FallBackVolts" type="xs:float" default="0" />
+              <xs:element name="CVStarted" type="xs:boolean" default="false" />
+              <xs:element name="SlowAmps" type="xs:float" default="0" />
+              <xs:element name="AvgAmps" msdata:Caption="MeasuredAmps" type="xs:float" default="0" />
+              <xs:element name="FastAmps" type="xs:float" default="0" />
+              <xs:element name="SetAmps" type="xs:float" default="0" />
+              <xs:element name="AhrIN" type="xs:float" default="0" />
+              <xs:element name="AhrOUT" type="xs:float" default="0" />
+              <xs:element name="PackVolts" type="xs:float" default="0" />
+              <xs:element name="AvgPackVolts" type="xs:float" default="0" />
+              <xs:element name="Fuel1" msdata:Caption="Fuel" type="xs:float" default="0" />
+              <xs:element name="SumError" type="xs:float" default="0" />
+              <xs:element name="Cell1Volts" type="xs:float" default="0" />
+              <xs:element name="Cell2Volts" type="xs:float" default="0" />
+              <xs:element name="Cell3Volts" type="xs:float" default="0" />
+              <xs:element name="Cell4Volts" type="xs:float" default="0" />
+              <xs:element name="Cell5Volts" type="xs:float" default="0" />
+              <xs:element name="Cell6Volts" type="xs:float" default="0" />
+              <xs:element name="Cell7Volts" type="xs:float" default="0" />
+              <xs:element name="Cell8Volts" type="xs:float" default="0" />
+              <xs:element name="Cell9Volts" type="xs:float" default="0" />
+              <xs:element name="Cell10Volts" type="xs:float" default="0" />
+              <xs:element name="Cell11Volts" type="xs:float" default="0" />
+              <xs:element name="Cell12Volts" type="xs:float" default="0" />
+              <xs:element name="Cell13Volts" type="xs:float" default="0" />
+              <xs:element name="Cell14Volts" type="xs:float" default="0" />
+              <xs:element name="Cell15Volts" type="xs:float" default="0" />
+              <xs:element name="Cell16Volts" type="xs:float" default="0" />
+              <xs:element name="Cell1IR" type="xs:float" default="0" />
+              <xs:element name="Cell2IR" type="xs:float" default="0" />
+              <xs:element name="Cell3IR" type="xs:float" default="0" />
+              <xs:element name="Cell4IR" type="xs:float" default="0" />
+              <xs:element name="Cell5IR" type="xs:float" default="0" />
+              <xs:element name="Cell6IR" type="xs:float" default="0" />
+              <xs:element name="Cell7IR" type="xs:float" default="0" />
+              <xs:element name="Cell8IR" type="xs:float" default="0" />
+              <xs:element name="Cell9IR" type="xs:float" default="0" />
+              <xs:element name="Cell10IR" type="xs:float" default="0" />
+              <xs:element name="Cell11IR" type="xs:float" default="0" />
+              <xs:element name="Cell12IR" type="xs:float" default="0" />
+              <xs:element name="Cell13IR" type="xs:float" default="0" />
+              <xs:element name="Cell14IR" type="xs:float" default="0" />
+              <xs:element name="Cell15IR" type="xs:float" default="0" />
+              <xs:element name="Cell16IR" type="xs:float" default="0" />
+              <xs:element name="BP1PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP2PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP3PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP4PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP5PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP6PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP7PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP8PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP9PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP10PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP11PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP12PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP13PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP14PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP15PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP16PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="Debug1" type="xs:int" default="0" />
+              <xs:element name="Debug2" type="xs:int" default="0" />
+              <xs:element name="Debug3" type="xs:int" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataBuffer">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateTime" type="xs:dateTime" />
+              <xs:element name="SlaveNum" type="xs:short" default="0" />
+              <xs:element name="Cycle" type="xs:int" default="0" />
+              <xs:element name="Mode" type="xs:short" default="0" />
+              <xs:element name="SupplyVolts" type="xs:float" default="0" />
+              <xs:element name="LSupplyVolts" type="xs:float" default="0" />
+              <xs:element name="SupplyAmps" type="xs:float" default="0" />
+              <xs:element name="PWM" type="xs:int" default="0" />
+              <xs:element name="SecTimer" type="xs:int" default="0" />
+              <xs:element name="AvgCellVolts" type="xs:float" default="0" />
+              <xs:element name="MaxCellVolts" type="xs:float" default="0" />
+              <xs:element name="AvgIR" type="xs:float" default="0" />
+              <xs:element name="FallBackVolts" type="xs:float" default="0" />
+              <xs:element name="CVStarted" type="xs:boolean" default="false" />
+              <xs:element name="SlowAmps" type="xs:float" default="0" />
+              <xs:element name="AvgAmps" msdata:Caption="MeasuredAmps" type="xs:float" default="0" />
+              <xs:element name="FastAmps" type="xs:float" default="0" />
+              <xs:element name="SetAmps" type="xs:float" default="0" />
+              <xs:element name="AhrIN" type="xs:float" default="0" />
+              <xs:element name="AhrOUT" type="xs:float" default="0" />
+              <xs:element name="PackVolts" type="xs:float" default="0" />
+              <xs:element name="AvgPackVolts" type="xs:float" default="0" />
+              <xs:element name="Fuel1" msdata:Caption="Fuel" type="xs:float" default="0" />
+              <xs:element name="SumError" type="xs:float" default="0" />
+              <xs:element name="Cell1Volts" type="xs:float" default="0" />
+              <xs:element name="Cell2Volts" type="xs:float" default="0" />
+              <xs:element name="Cell3Volts" type="xs:float" default="0" />
+              <xs:element name="Cell4Volts" type="xs:float" default="0" />
+              <xs:element name="Cell5Volts" type="xs:float" default="0" />
+              <xs:element name="Cell6Volts" type="xs:float" default="0" />
+              <xs:element name="Cell7Volts" type="xs:float" default="0" />
+              <xs:element name="Cell8Volts" type="xs:float" default="0" />
+              <xs:element name="Cell9Volts" type="xs:float" default="0" />
+              <xs:element name="Cell10Volts" type="xs:float" default="0" />
+              <xs:element name="Cell11Volts" type="xs:float" default="0" />
+              <xs:element name="Cell12Volts" type="xs:float" default="0" />
+              <xs:element name="Cell13Volts" type="xs:float" default="0" />
+              <xs:element name="Cell14Volts" type="xs:float" default="0" />
+              <xs:element name="Cell15Volts" type="xs:float" default="0" />
+              <xs:element name="Cell16Volts" type="xs:float" default="0" />
+              <xs:element name="Cell1IR" type="xs:float" default="0" />
+              <xs:element name="Cell2IR" type="xs:float" default="0" />
+              <xs:element name="Cell3IR" type="xs:float" default="0" />
+              <xs:element name="Cell4IR" type="xs:float" default="0" />
+              <xs:element name="Cell5IR" type="xs:float" default="0" />
+              <xs:element name="Cell6IR" type="xs:float" default="0" />
+              <xs:element name="Cell7IR" type="xs:float" default="0" />
+              <xs:element name="Cell8IR" type="xs:float" default="0" />
+              <xs:element name="Cell9IR" type="xs:float" default="0" />
+              <xs:element name="Cell10IR" type="xs:float" default="0" />
+              <xs:element name="Cell11IR" type="xs:float" default="0" />
+              <xs:element name="Cell12IR" type="xs:float" default="0" />
+              <xs:element name="Cell13IR" type="xs:float" default="0" />
+              <xs:element name="Cell14IR" type="xs:float" default="0" />
+              <xs:element name="Cell15IR" type="xs:float" default="0" />
+              <xs:element name="Cell16IR" type="xs:float" default="0" />
+              <xs:element name="BP1PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP2PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP3PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP4PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP5PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP6PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP7PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP8PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP9PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP10PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP11PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP12PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP13PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP14PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP15PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP16PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="Debug1" type="xs:int" default="0" />
+              <xs:element name="Debug2" type="xs:int" default="0" />
+              <xs:element name="Debug3" type="xs:int" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Data2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateTime" type="xs:dateTime" />
+              <xs:element name="SlaveNum" type="xs:short" default="0" />
+              <xs:element name="Cycle" type="xs:int" default="0" />
+              <xs:element name="Mode" type="xs:short" default="0" />
+              <xs:element name="SupplyVolts" type="xs:float" default="0" />
+              <xs:element name="LSupplyVolts" type="xs:float" default="0" />
+              <xs:element name="SupplyAmps" type="xs:float" default="0" />
+              <xs:element name="PWM" type="xs:int" default="0" />
+              <xs:element name="SecTimer" type="xs:int" default="0" />
+              <xs:element name="AvgCellVolts" type="xs:float" default="0" />
+              <xs:element name="MaxCellVolts" type="xs:float" default="0" />
+              <xs:element name="AvgIR" type="xs:float" default="0" />
+              <xs:element name="FallBackVolts" type="xs:float" default="0" />
+              <xs:element name="CVStarted" type="xs:boolean" default="false" />
+              <xs:element name="SlowAmps" type="xs:float" default="0" />
+              <xs:element name="AvgAmps" msdata:Caption="MeasuredAmps" type="xs:float" default="0" />
+              <xs:element name="FastAmps" type="xs:float" default="0" />
+              <xs:element name="SetAmps" type="xs:float" default="0" />
+              <xs:element name="AhrIN" type="xs:float" default="0" />
+              <xs:element name="AhrOUT" type="xs:float" default="0" />
+              <xs:element name="PackVolts" type="xs:float" default="0" />
+              <xs:element name="AvgPackVolts" type="xs:float" default="0" />
+              <xs:element name="Fuel1" msdata:Caption="Fuel" type="xs:float" default="0" />
+              <xs:element name="SumError" type="xs:float" default="0" />
+              <xs:element name="Cell1Volts" type="xs:float" default="0" />
+              <xs:element name="Cell2Volts" type="xs:float" default="0" />
+              <xs:element name="Cell3Volts" type="xs:float" default="0" />
+              <xs:element name="Cell4Volts" type="xs:float" default="0" />
+              <xs:element name="Cell5Volts" type="xs:float" default="0" />
+              <xs:element name="Cell6Volts" type="xs:float" default="0" />
+              <xs:element name="Cell7Volts" type="xs:float" default="0" />
+              <xs:element name="Cell8Volts" type="xs:float" default="0" />
+              <xs:element name="Cell9Volts" type="xs:float" default="0" />
+              <xs:element name="Cell10Volts" type="xs:float" default="0" />
+              <xs:element name="Cell11Volts" type="xs:float" default="0" />
+              <xs:element name="Cell12Volts" type="xs:float" default="0" />
+              <xs:element name="Cell13Volts" type="xs:float" default="0" />
+              <xs:element name="Cell14Volts" type="xs:float" default="0" />
+              <xs:element name="Cell15Volts" type="xs:float" default="0" />
+              <xs:element name="Cell16Volts" type="xs:float" default="0" />
+              <xs:element name="Cell1IR" type="xs:float" default="0" />
+              <xs:element name="Cell2IR" type="xs:float" default="0" />
+              <xs:element name="Cell3IR" type="xs:float" default="0" />
+              <xs:element name="Cell4IR" type="xs:float" default="0" />
+              <xs:element name="Cell5IR" type="xs:float" default="0" />
+              <xs:element name="Cell6IR" type="xs:float" default="0" />
+              <xs:element name="Cell7IR" type="xs:float" default="0" />
+              <xs:element name="Cell8IR" type="xs:float" default="0" />
+              <xs:element name="Cell9IR" type="xs:float" default="0" />
+              <xs:element name="Cell10IR" type="xs:float" default="0" />
+              <xs:element name="Cell11IR" type="xs:float" default="0" />
+              <xs:element name="Cell12IR" type="xs:float" default="0" />
+              <xs:element name="Cell13IR" type="xs:float" default="0" />
+              <xs:element name="Cell14IR" type="xs:float" default="0" />
+              <xs:element name="Cell15IR" type="xs:float" default="0" />
+              <xs:element name="Cell16IR" type="xs:float" default="0" />
+              <xs:element name="BP1PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP2PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP3PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP4PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP5PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP6PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP7PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP8PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP9PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP10PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP11PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP12PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP13PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP14PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP15PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="BP16PWM" type="xs:unsignedByte" default="0" />
+              <xs:element name="Debug1" type="xs:int" default="0" />
+              <xs:element name="Debug2" type="xs:int" default="0" />
+              <xs:element name="Debug3" type="xs:int" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Info2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StartDateTime" type="xs:dateTime" />
+              <xs:element name="SlaveNum" type="xs:short" default="0" />
+              <xs:element name="PresetLCD" type="xs:string" default="" />
+              <xs:element name="Notes" type="xs:string" default="" />
+              <xs:element name="SinglePack" type="xs:boolean" default="false" />
+              <xs:element name="UseNodes" type="xs:boolean" default="false" />
+              <xs:element name="UseFuel" type="xs:boolean" default="false" />
+              <xs:element name="GenerateFuel" type="xs:boolean" default="false" />
+              <xs:element name="Chemistry" type="xs:float" default="0" />
+              <xs:element name="ChgVolts" type="xs:float" default="0" />
+              <xs:element name="DschVolts" type="xs:float" default="0" />
+              <xs:element name="DschAhr" type="xs:float" default="0" />
+              <xs:element name="ChgC" type="xs:float" default="0" />
+              <xs:element name="DschC" type="xs:float" default="0" />
+              <xs:element name="Cells" type="xs:short" default="0" />
+              <xs:element name="PSLimit" type="xs:float" default="0" />
+              <xs:element name="BananasConnected" type="xs:boolean" default="false" />
+              <xs:element name="OptimizedFastCharge" type="xs:boolean" default="false" />
+              <xs:element name="CRC32" type="xs:long" default="0" />
+              <xs:element name="Charger" type="xs:string" default="" />
+              <xs:element name="Firmware" type="xs:float" default="0" />
+              <xs:element name="DataInterval" type="xs:short" default="10" />
+              <xs:element name="NamePlateAhr" type="xs:float" default="0" />
+              <xs:element name="ChargeAhrCyc1" type="xs:float" default="0" />
+              <xs:element name="DischargeAhrCyc1" type="xs:float" default="0" />
+              <xs:element name="AvgChgVoltsCyc1" type="xs:float" default="0" />
+              <xs:element name="AvgChgAmpsCyc1" type="xs:float" default="0" />
+              <xs:element name="ManualAmpsCyc1" type="xs:boolean" default="false" />
+              <xs:element name="AvgDschAmpsCyc1" type="xs:float" default="0" />
+              <xs:element name="AvgDschVoltsCyc1" type="xs:float" default="0" />
+              <xs:element name="AvgIRCyc1" type="xs:float" default="0" />
+              <xs:element name="ChgCCyc1" type="xs:float" default="0" />
+              <xs:element name="DschCCyc1" type="xs:float" default="0" />
+              <xs:element name="ChargeAhrCyc2" type="xs:float" default="0" />
+              <xs:element name="DischargeAhrCyc2" type="xs:float" default="0" />
+              <xs:element name="AvgChgVoltsCyc2" type="xs:float" default="0" />
+              <xs:element name="AvgChgAmpsCyc2" type="xs:float" default="0" />
+              <xs:element name="ManualAmpsCyc2" type="xs:boolean" default="false" />
+              <xs:element name="AvgDschAmpsCyc2" type="xs:float" default="0" />
+              <xs:element name="AvgDschVoltsCyc2" type="xs:float" default="0" />
+              <xs:element name="AvgIRCyc2" type="xs:float" default="0" />
+              <xs:element name="ChgCCyc2" type="xs:float" default="0" />
+              <xs:element name="ChgMinCyc2" type="xs:float" default="0" />
+              <xs:element name="DschCCyc2" type="xs:float" default="0" />
+              <xs:element name="ChargeAhrCycL" type="xs:float" default="0" />
+              <xs:element name="DischargeAhrCycL" type="xs:float" default="0" />
+              <xs:element name="AvgChgVoltsCycL" type="xs:float" default="0" />
+              <xs:element name="AvgChgAmpsCycL" type="xs:float" default="0" />
+              <xs:element name="ManualAmpsCycL" type="xs:boolean" default="false" />
+              <xs:element name="AvgDschAmpsCycL" type="xs:float" default="0" />
+              <xs:element name="AvgDschVoltsCycL" type="xs:float" default="0" />
+              <xs:element name="AvgIRCycL" type="xs:float" default="0" />
+              <xs:element name="ChgCCycL" type="xs:float" default="0" />
+              <xs:element name="DschCCycL" type="xs:float" default="0" />
+              <xs:element name="CycLast" msdata:Caption="Cycles" type="xs:short" default="0" />
+              <xs:element name="DischargeAhrCycM" type="xs:float" default="0" />
+              <xs:element name="CycMax" type="xs:short" default="0" />
+              <xs:element name="CyclesDecreased" type="xs:short" default="0" />
+              <xs:element name="PercentRemaining" type="xs:float" default="0" />
+              <xs:element name="AhrPerCycle" type="xs:float" default="0" />
+              <xs:element name="CycleLife80" type="xs:int" default="0" />
+              <xs:element name="RowsCalculated" type="xs:int" default="0" />
+              <xs:element name="CalculatedError" type="xs:string" default="" />
+              <xs:element name="PersetVer" type="xs:float" default="0" />
+              <xs:element name="LCD1" type="xs:string" default="" />
+              <xs:element name="LCD2" type="xs:string" default="" />
+              <xs:element name="RatedCapacity" type="xs:string" default="" />
+              <xs:element name="CustomFuel" type="xs:boolean" default="false" />
+              <xs:element name="PresetData" type="xs:base64Binary" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

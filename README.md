@@ -4,6 +4,7 @@ Collecting data using a powerlab8 V2 charger. Capable of 60A discharge to a batt
 
 Cells tested -> Molicell INR-21700-P42A.
 
+
 ## Aims
 - check cell capacity variance
 - check cell internal resistance variance
@@ -14,7 +15,7 @@ Cells tested -> Molicell INR-21700-P42A.
 - [ ] raw cell data
 - [ ] script to process raw data into useful things
 - [ ] summary excel sheet once all data has been collected
-- [ ] discharge plots 
+- [ ] discharge plots
 
 ## data
 
