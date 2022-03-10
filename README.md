@@ -11,7 +11,7 @@ Cells tested -> Molicell INR-21700-P42A.
 - measure cell response to a 60a 10 second current draw
 
 ## Repo contents
--[] raw cell data
--[] script to process raw data into useful things
--[] summary excel sheet once all data has been collected
--[] discharge plots 
+- [] raw cell data
+- [] script to process raw data into useful things
+- [] summary excel sheet once all data has been collected
+- [] discharge plots 
