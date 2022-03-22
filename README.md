@@ -1,8 +1,8 @@
 # Lithium Ion Cell Testing
 
-Collecting data using a powerlab8 V2 charger. Capable of 60A discharge to a battery supply, 10A internal dissipation.
+Collecting data using a powerlab8 V2 charger. Capable of 40A discharge to a battery supply, 10A internal dissipation.
 
-Cells tested -> Molicell INR-21700-P42A.
+Cells tested -> Molicell INR-21700-P42A: https://www.imrbatteries.com/content/molicel_p42a.pdf
 
 Can get the Revolectrix CCS PowerLab 8 software here: https://www.rcgroups.com/forums/showthread.php?3963135-Revolectrix-CCS-Install-Workaround#post47730189
 
@@ -14,15 +14,20 @@ Can get the Revolectrix CCS PowerLab 8 software here: https://www.rcgroups.com/f
 - measure cell response to a 60a 10 second current draw
 
 ## Repo contents
-- [ ] raw cell data
-- [ ] script to process raw data into useful things
-- [ ] summary excel sheet once all data has been collected
-- [ ] discharge plots
+- [X] data/set1 raw cell data - test setup introduced apparent cell to cell variance - systematic errors in internal resistances ?
+- [ ] data/set2 raw cell data - test setup improved (awaiting results)
+- [X] script to process raw data into useful things
+- [X] set 1 summary excel sheet
+- [ ] set 2 summary excel sheet
+- [X] set1 plots
+- [ ] set2 plots
 
 ## data
 
 test data in native PowerLab 8 V2 software format (.CP8) as well as tab separated format (.txt)
 
-- N_cell_cycle.*      :   (charge to 100% SoC if needed) discharge at 1C, 1 min rest, then charge at 1C
+- N_cell_cycle.*      :   (charge to 100% SoC if needed) discharge at 1C to 2.5V, 1 min rest, then charge at 1C to 100% SoC
 - N_cell_storage.*    :   Discharge from 100% SoC to 3.7V storage charge at 10A, ~2.4C
-- N_cell_stress.*     :   Discharge from 100% SoC to 4.0V (TBC) at 60A, ~14C
+- N_cell_stress_XA.*  :   Discharge from 100% SoC to 4.0V (TBC) at X Amps, ~14C
+
+![hi](/cells.jpg)
